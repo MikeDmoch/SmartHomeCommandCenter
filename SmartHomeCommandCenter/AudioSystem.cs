@@ -8,5 +8,6 @@ namespace SmartHomeCommandCenter
 {
     internal class AudioSystem
     {
+        public void SetPlaylist(string genre) => Console.WriteLine($"Music playlist set to {genre}");
     }
 }
