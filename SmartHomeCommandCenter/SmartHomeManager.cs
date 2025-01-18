@@ -10,7 +10,7 @@ namespace SmartHomeCommandCenter
     {
         public readonly Stack<ICommand> history = new();
 
-        public void ExecuteCommant(ICommand command)
+        public void ExecuteCommand(ICommand command)
         {
             command.Execute();
             history.Push(command);
